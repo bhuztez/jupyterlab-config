@@ -1,1 +1,4 @@
 jupyterlab
+matplotlib
+ipywidgets
+sympy

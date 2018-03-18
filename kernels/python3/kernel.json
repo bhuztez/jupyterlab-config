@@ -3,6 +3,7 @@
   "python3",
   "-m",
   "ipykernel_launcher",
+  "--pylab",
   "--profile-dir={resource_dir}/../../profile",
   "-f",
   "{connection_file}"

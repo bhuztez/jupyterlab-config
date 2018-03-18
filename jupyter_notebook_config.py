@@ -7,6 +7,8 @@ if "JUPYTER_PATH" in os.environ:
 else:
     os.environ["JUPYTER_PATH"] = PATH
 
+os.environ['JUPYTER_CONFIG_DIR'] = os.path.join(PATH, "jupyter")
+
 import webbrowser
 
 class Private(webbrowser.Mozilla):
